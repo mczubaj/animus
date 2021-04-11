@@ -1,6 +1,7 @@
 .styled-table {
-    border-radius: 10px;
-    border-spacing: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-collapse: collapse;
     margin: 25px 0;
     font-size: 1.1em;
     font-family: sans-serif;
@@ -29,14 +30,6 @@
 
 .styled-table tbody tr:last-of-type {
     border-bottom: 2px solid #b3d44e;
-}
-
-.styled-table tr:last-child td:first-child {
-    border-bottom-left-radius: 10px;
-}
-
-.styled-table tr:last-child td:last-child {
-    border-bottom-right-radius: 10px;
 }
 
 .styled-table tr:first-child th:first-child {
